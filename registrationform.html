@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    
+
+</head>
+<body>
+    <h2>Student registration form</h2>
+    <form>
+        <label for="Fname">Name</label>
+        <input type="text" name="Fname" required><br><br>
+        <label for="DOB">Date of birth</label>
+        <input type="date" id="DOB" name="DOB"><br><br>
+        <label for="">Gender:</label><br>
+
+        <!--radio button-->
+
+        <input type="radio" id="male" name="Gender" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="Gender" required>
+        <label for="female">Female</label><br><br>
+
+        <label for="">Course</label>
+        <select id="Course">
+            <option value="MIT">Fullstack Engineer</option>
+            <option value="MIT">Data Science</option>
+            <option value="MIT">HTML</option>
+            <option value="MIT">Python</option>
+
+
+        </select><br><br>
+        <label for="file">Upload files</label><br>
+
+        <input type="file" id="file" accept=".jpg, .png, .jpeg"><br><br>
+
+        <label for="">Accept terms and conditions</label><br>
+        <input type="checkbox" name="" id="terms" required>
+        <button type="submit">Submit data</button>
+        <button type="reset">clear form </button>
+
+
+
+
+
+    </form>
+</body>
+</html>

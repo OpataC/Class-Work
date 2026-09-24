@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables </title>
+    <style>
+       body{
+        background-color: rgb(167, 179, 179);
+       }
+       table{
+
+        border: 2px solid magenta;
+        width: 20px;
+       }
+
+       th{
+        background-color: greenyellow;
+       }
+
+      th,td{
+        border: 1px solid blue;
+      }
+
+      h3{
+        text-align: right;
+        color: green;
+        width: 10px;
+        margin: 20px auto;
+      }
+    </style>
+</head>
+<body>
+    <h3>Student Information table</h3>
+    <table>
+        <!--first row-->
+        <tr>
+            <th>Student name</th>
+            <th>Age</th>
+            <th>Course</th>
+        </tr>
+        <!---second row-->
+        <tr>
+            <td>Jane</td>
+            <td>20</td>
+            <td>MIT</td>
+        </tr>
+        <!---3rd row-->
+        <tr>
+            <td>Kamau</td>
+            <td>17</td>
+            <td>Cyber Security</td>
+        </tr>
+        <!---4th row-->
+        <tr>
+            <td>John</td>
+            <td>23</td>
+            <td>Engineer</td>
+        </tr>
+         <!---5th row-->
+        <tr>
+            <td>Tom</td>
+            <td>30</td>
+            <td rowspan="2">Data Science</td>
+        </tr>
+           <!---6th row-->
+        <tr>
+            <td>Brix</td>
+            <td>12</td>
+           
+        </tr>
+    </table>
+</body>
+</html>
