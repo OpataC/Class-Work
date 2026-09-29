@@ -1,0 +1,23 @@
+#one{
+    color: aquamarine;
+    animation:myanimation 1s 5
+    
+}
+
+.zero{
+    color: red;
+}
+
+@keyframes myanimation{
+      from{
+        color: red;
+        transform:translateX(0px)
+      }
+
+
+      to{
+        color: yellow;
+        transform: translateX(600px)
+      }
+
+}

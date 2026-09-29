@@ -3,39 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semantic</title>
-    <link rel="stylesheet" href="Static/CSS/external.css">
+    <title>semantic</title>
+    <link rel="stylesheet" href="static/css/external.css">
 </head>
 <body>
     <header>
-      <h1>Welcome to my site</h1>
-      <nav>
-        <ul>
-            <a href="#"><li>Home</li>
-            <a href="#"><li>about</li>
-            <a href="#"><li>about</li>
-            <a href="#"><li>contact</li>
-        </ul>
-      </nav>
+        
+        <nav>
+            <ul>
+                <a href="#home"><li>home</li></a>
+                <a href="#about"><li>about</li></a>
+                <a href="#services"><li>services</li></a>
+                <a href="#contact"><li>contact</li></a>
+            </ul>
+        </nav>
     </header>
     <main>
-        <!--Section-->
-      <section id="Home">
-        <h2>Home</h2>
-        <p>This is a place where people meet to get the story</p>
-        </section>
-        
-        <section id="About">
-        <h2>about</h2>
-        <p>This is a place where people meet to get the story</p>
+        <!-- home section -->
+         <section id="home">
+            <h2>welcome to emobilis</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid corporis, qui itaque excepturi autem ipsum, ea eveniet voluptate maxime atque delectus. Consequuntur hic reprehenderit, iste aliquam vitae dicta eius!</p>
          </section>
-
+         <!-- about section -->
+         <section id="about">
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, neque ipsa eligendi enim ducimus animi impedit veritatis amet maxime recusandae iste vel, est quibusdam? Officia consequuntur asperiores mollitia molestias dignissimos!</p>
+         </section>
+         <!-- services -->
+          <section id="services">
+            <h2>Our Services</h2>
+            <div class="container">
+                <div class="service">
+                    <h3>Web development</h3>
+                    <p>we create modern, responsive websites</p>
+                </div>
+                <div class="service">
+                    <h3>Mobile app development</h3>
+                    <p>we create modern, responsive websites</p>
+                </div>
+                <div class="service">
+                    <h3>cloud computing</h3>
+                    <p>we create modern, responsive websites</p>
+                </div>
+            </div>
+          </section>
+          <!-- contact section -->
            <section id="contact">
+             <h2>Contact us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea name="message" id="message" rows="5" cols="30" required></textarea><br>
+                <input type="submit" value="Send Message">
+            </form>
+           </section>
 
-         <h2>contact</h2>
-        <p>970000000</p>
 
-        </section>
+
     </main>
+    <footer>
+        <p>&copy; 2026 faith. All rights reserved.</p>
+
+    </footer>
 </body>
 </html>
